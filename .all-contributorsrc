@@ -1,0 +1,29 @@
+{
+  "projectName": "react-awesome-shapes",
+  "projectOwner": "ashutosh1919",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "gitmoji",
+  "contributors": [
+    {
+      "login": "ashutosh1919",
+      "name": "Ashutosh Hathidara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20843596?v=4",
+      "profile": "https://github.com/ashutosh1919",
+      "contributions": [
+        "code",
+        "design",
+        "doc",
+        "ideas",
+        "maintenance",
+        "research"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
