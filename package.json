@@ -29,8 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint ./",
-    "lint:fix": "eslint ./ --fix",
+    "lint": "eslint --ignore-pattern '.build/*' ./",
+    "lint:fix": "eslint --ignore-pattern '.build/*' ./ --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,json}' --config ./.prettierrc.json",
     "prepare": "husky install"
   },
