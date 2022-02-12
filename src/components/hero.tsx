@@ -51,9 +51,14 @@ export const Hero = () => {
                     overflowX: 'scroll',
                     my: '40px'
                     }}>
+                        
                     <ReactTooltip id="registerTip" event="click" place="top" effect="solid" backgroundColor='#c7d2fe' textColor='#111827' afterShow={(e)=> {navigator.clipboard.writeText('npm install react-awesome-shapes');}}>
                         Copied
                     </ReactTooltip>
+
+                
+{/* 
+                    <p data-tip="tooltip" data-delay-hide='1000'>Copied</p> or <ReactTooltip delayHide={1000} /> */}
                     npm install react-awesome-shapes
                 </motion.code>
             </Flex>
