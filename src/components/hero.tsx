@@ -37,7 +37,7 @@ export const Hero = () => {
             {' '}
             Awesome Shapes{' '}
           </span>{' '}
-          into Your Site with Ease.
+          into Your Site with Ease Test.
         </AnimatedText>
       </Flex>
       <Flex sx={{ justifyContent: `center` }}>
