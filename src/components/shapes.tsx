@@ -1,7 +1,7 @@
 import React from 'react';
-import { Circle } from '../lib/shapes/circle';
-import { Donut } from '../lib/shapes/donut';
-import { CircleGrid } from '../lib/shapes/circlegrid';
+import { Circle } from '../lib';
+import { Donut } from '../lib';
+import { CircleGrid } from '../lib';
 
 export const Shapes = () => {
   return (

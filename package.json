@@ -1,8 +1,33 @@
 {
-  "name": "react-anim-shapes",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-awesome-shapes",
+  "description": "Insert Awesome Shapes into Your React Site with Ease.",
+  "version": "0.1.6",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "Ashutosh Hathidara <ashutoshhathidara98@gmail.com> (https://ashutoshhathidara.com/)",
+  "keywords": [
+    "react-shapes",
+    "react-awesome-shapes",
+    "shapes",
+    "circle",
+    "donut",
+    "ui-pack",
+    "best-react-package",
+    "components",
+    "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashutosh1919/react-awesome-shapes.git"
+  },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
     "@mdx-js/react": "^1.6.22",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -17,17 +42,16 @@
     "framer-motion": "^5.5.6",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-responsive": "^9.0.0-beta.5",
     "react-scripts": "5.0.0",
     "react-tooltip": "^4.2.21",
     "typescript": "^4.5.4",
-    "web-vitals": "^2.1.2",
-    "@emotion/react": "^11.7.1",
-    "@emotion/styled": "^11.6.0",
-    "react-responsive": "^9.0.0-beta.5"
+    "web-vitals": "^2.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build-dev": "react-scripts build",
+    "build": "rm -rf dist && tsc src/lib/*.tsx --jsx react-jsx --outDir dist --esModuleInterop true",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint --ignore-pattern '.build/*' ./",
