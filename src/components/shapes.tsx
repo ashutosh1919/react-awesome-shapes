@@ -2,6 +2,7 @@ import { Circle } from '../lib/shapes/circle';
 import { Donut } from '../lib/shapes/donut';
 import { Square } from '../lib/shapes/square';
 import { CircleGrid } from '../lib/shapes/circlegrid';
+import { Diamond } from '../lib/shapes/diamond';
 
 export const Shapes = () => {
     return (
@@ -20,8 +21,9 @@ export const Shapes = () => {
                 right={[`30px`, `180px`, `180px`, `150px`]}
             />
             <Square size="100px" color="linear-gradient(135deg, #f9a8d4, #ec4899)" top="300px" left={[`-80px`, `50px`, `60px`, `80px`]} />
-            
-            
+            <Square size="30px" color="linear-gradient(135deg, #f9a8d4, #ec4899)" top="100px" right={[`-80px`, `50px`, `60px`, `120px`]} />
+        
+            <Diamond size="50px" color="linear-gradient(225deg, #fed7aa, #fb923c)" bottom="50px" left={[`-80px`, `50px`, `60px`, `250px`]} />
             <Donut
                 size="30px"
                 color="#4ade80"
