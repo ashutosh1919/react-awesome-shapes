@@ -1,5 +1,6 @@
 import { Circle } from '../lib/shapes/circle';
 import { Donut } from '../lib/shapes/donut';
+import { Square } from '../lib/shapes/square';
 import { CircleGrid } from '../lib/shapes/circlegrid';
 
 export const Shapes = () => {
@@ -18,6 +19,9 @@ export const Shapes = () => {
                 top={["300px", "300px", "360px", "360px"]}
                 right={[`30px`, `180px`, `180px`, `150px`]}
             />
+            <Square size="100px" color="linear-gradient(135deg, #f9a8d4, #ec4899)" top="300px" left={[`-80px`, `50px`, `60px`, `80px`]} />
+            
+            
             <Donut
                 size="30px"
                 color="#4ade80"
