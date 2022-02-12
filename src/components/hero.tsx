@@ -2,7 +2,7 @@
 import React from 'react';
 import { Container, Flex, Text } from 'theme-ui';
 import { motion } from 'framer-motion';
-import prism from '@theme-ui/prism/presets/vs-dark.json';
+// import prism from '@theme-ui/prism/presets/vs-dark.json';
 import ReactTooltip from 'react-tooltip';
 
 export const Hero = () => {
@@ -48,7 +48,7 @@ export const Hero = () => {
           exit={{ opacity: 0, y: -20 }}
           initial={{ opacity: 0, y: 20 }}
           sx={{
-            ...prism,
+            // ...prism,
             cursor: 'pointer',
             ':hover': {
               backgroundColor: `textHover`
