@@ -18,6 +18,7 @@ export const ShapesShowcase = () => {
                         fontSize: [`20px`, `20px`, `40px`, `60px`],
                         fontWeight: 'bold',
                         color: `text`,
+                        borderBottom: '4px solid',
                         lineHeight: [`50px`, `50px`, `100px`, `100px`],
                     }}>
                     Shapes
