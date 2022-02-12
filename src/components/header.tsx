@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 
 export const Header = () => {
   const AnimatedFlex = motion(Flex);
+
   return (
     <header>
       <Container sx={{ pb: 0 }}>
