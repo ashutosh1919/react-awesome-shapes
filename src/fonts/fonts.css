@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'SF Pro Bold';
-    src: url('./SF_Bold.OTF') format('opentype');
+  font-family: 'SF Pro Bold';
+  src: url('./SF_Bold.OTF') format('opentype');
 }
 
 @font-face {
-    font-family: 'SF Pro Medium';
-    src: url('./SF_Medium.OTF') format('opentype');
+  font-family: 'SF Pro Medium';
+  src: url('./SF_Medium.OTF') format('opentype');
 }
 
 @font-face {
-    font-family: 'SF Pro Regular';
-    src: url('./SF_Regular.OTF') format('opentype');
+  font-family: 'SF Pro Regular';
+  src: url('./SF_Regular.OTF') format('opentype');
 }
