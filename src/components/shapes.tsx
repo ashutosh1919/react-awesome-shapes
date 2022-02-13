@@ -45,10 +45,10 @@ export const Shapes = () => {
         top="100px"
       />
       <Diamond
+        bottom="50px"
         color="linear-gradient(225deg, #bbf7d0, #4ade80)"
         left={[`-80px`, `50px`, `60px`, `250px`]}
         size="30px"
-        bottom="50px"
       />
 
       <Donut
