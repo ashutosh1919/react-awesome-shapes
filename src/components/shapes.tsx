@@ -32,13 +32,13 @@ export const Shapes = () => {
         size="40px"
         top={['300px', '300px', '360px', '360px']}
       />
-       <Square
+      <Square
         color="linear-gradient(135deg, #f9a8d4, #ec4899)"
         left={[`-80px`, `50px`, `60px`, `80px`]}
         size="100px"
         top="300px"
       />
-       <Square
+      <Square
         color="linear-gradient(135deg, #f9a8d4, #ec4899)"
         right={[`-80px`, `50px`, `60px`, `120px`]}
         size="30px"
@@ -50,8 +50,7 @@ export const Shapes = () => {
         size="30px"
         bottom="50px"
       />
-      
-      
+
       <Donut
         color="#4ade80"
         left={[`-15px`, `-5px`, `-5px`, `20px`]}
