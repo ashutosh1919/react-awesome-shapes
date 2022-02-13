@@ -1,3 +1,7 @@
+<div align="center">
+<img alt="preview" src="./public/preview.png" />
+</div>
+
 # Getting Started with React Awesome Shapes
 
 If you are trying to use this project for the first time, you can get up and running by following these steps.
@@ -15,9 +19,11 @@ npm install
 ```
 
 Start the development server on localhost:3000
+
 ```
 npm start
 ```
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -39,4 +45,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
