@@ -1,6 +1,8 @@
-import styled from "@emotion/styled";
-import { useMediaQuery } from "react-responsive";
-import { MediaQueryAllQueryable } from "react-responsive/dist/types";
+import { MediaQueryAllQueryable } from 'react-responsive/dist/types';
+import React from 'react';
+import styled from '@emotion/styled';
+import { ReactNode } from 'react';
+import { useMediaQuery } from 'react-responsive';
 
 type ResponsiveShapeProps = {
   height: string[];
@@ -11,7 +13,7 @@ type ResponsiveShapeProps = {
   bottom: string[];
   zIndex: string;
   className: string;
-  children: any;
+  children: ReactNode;
   breakpoints: number[];
   position: string;
 };
@@ -25,7 +27,7 @@ type ShapeDivProps = {
   bottom: string;
   zIndex: string;
   className: string;
-  children: any;
+  children: ReactNode;
   position: string;
 };
 
@@ -39,9 +41,9 @@ const ShapeDiv = ({
   right,
   bottom,
   className,
-  zIndex,
+  zIndex
 }: ShapeDivProps) => {
-  const Div = styled("div")`
+  const Div = styled('div')`
     position: ${position};
     height: ${height};
     width: ${width};
@@ -51,11 +53,13 @@ const ShapeDiv = ({
     bottom: ${bottom};
     z-index: ${zIndex};
   `;
+
   return <Div className={className}>{children}</Div>;
 };
 
 export const GetQuery = (mediaSettings: MediaQueryAllQueryable) => {
   const query = useMediaQuery(mediaSettings);
+
   return query;
 };
 
@@ -70,38 +74,33 @@ export const ResponsiveShape = ({
   bottom,
   className,
   zIndex,
-  breakpoints,
+  breakpoints
 }: ResponsiveShapeProps) => {
-  let queries = [];
+  const queries = [];
   for (let i = 0; i < breakpoints.length + 1; i++) {
     let query;
     if (i === 0) {
       query = GetQuery({ maxWidth: breakpoints[i] });
     } else if (i === breakpoints.length) {
-      query = GetQuery({
-        minWidth: breakpoints[breakpoints.length - 1] + 1,
-      });
+      query = GetQuery({ minWidth: breakpoints[breakpoints.length - 1] + 1 });
     } else {
-      query = GetQuery({
-        minWidth: breakpoints[i - 1] + 1,
-        maxWidth: breakpoints[i],
-      });
+      query = GetQuery({ minWidth: breakpoints[i - 1] + 1, maxWidth: breakpoints[i] });
     }
     queries.push(query);
   }
   for (let i = 0; i < queries.length; i++) {
-    let query = queries[i];
+    const query = queries[i];
     if (query) {
       return (
         <ShapeDiv
-          height={height[i]}
-          width={width[i]}
-          position={position}
-          top={top[i]}
-          left={left[i]}
-          right={right[i]}
           bottom={bottom[i]}
           className={className}
+          height={height[i]}
+          left={left[i]}
+          position={position}
+          right={right[i]}
+          top={top[i]}
+          width={width[i]}
           zIndex={zIndex}
         >
           {children}
@@ -109,5 +108,6 @@ export const ResponsiveShape = ({
       );
     }
   }
+
   return <></>;
 };

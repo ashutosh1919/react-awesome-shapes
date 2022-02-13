@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
 
-type CircleProps = {
+type DiamondProps = {
   size: string | string[];
   color: string;
   top?: string | string[];
@@ -15,7 +15,7 @@ type CircleProps = {
   position?: string;
 };
 
-export const Circle = ({
+export const Diamond = ({
   size,
   color,
   top = ``,
@@ -26,14 +26,14 @@ export const Circle = ({
   className = `anim-shape-circle`,
   zIndex = `-1`,
   breakpoints = [600, 900, 1200]
-}: CircleProps) => {
-  const StyledCircle = styled('div')`
+}: DiamondProps) => {
+  const StyledDiamond = styled('div')`
     position: inherit;
     height: inherit;
     width: inherit;
     background: ${color};
-    border-radius: 50%;
     top: inherit;
+    transform: rotate(45deg);
     right: inherit;
     left: inherit;
     bottom: inherit;
@@ -53,7 +53,7 @@ export const Circle = ({
       width={size}
       zIndex={zIndex}
     >
-      <StyledCircle className={className} />
+      <StyledDiamond className={className} />
     </BaseShape>
   );
 };
