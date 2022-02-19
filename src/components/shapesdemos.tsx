@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import LiveEdit from './liveedit';
+import React from 'react';
+import { LiveEdit } from './liveedit';
 import { Circle, Donut, CircleGrid, Square, Diamond } from '../lib';
 
 const scope = { Circle, Donut, CircleGrid, Square, Diamond };
@@ -46,18 +46,14 @@ const diamondExample = `
 />
 `;
 
-class ShapesDemos extends Component {
-  render() {
-    return (
-      <div>
-        <LiveEdit code={circleExample} scope={scope} />
-        <LiveEdit code={donutExample} scope={scope} />
-        <LiveEdit code={circleGridExample} scope={scope} />
-        <LiveEdit code={squareExample} scope={scope} />
-        <LiveEdit code={diamondExample} scope={scope} />
-      </div>
-    );
-  }
-}
-
-export default ShapesDemos;
+export const ShapesDemos = () => {
+  return (
+    <div>
+      <LiveEdit code={circleExample} scope={scope} />
+      <LiveEdit code={donutExample} scope={scope} />
+      <LiveEdit code={circleGridExample} scope={scope} />
+      <LiveEdit code={squareExample} scope={scope} />
+      <LiveEdit code={diamondExample} scope={scope} />
+    </div>
+  );
+};

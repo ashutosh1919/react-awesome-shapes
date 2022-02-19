@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 import * as polished from 'polished';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
-import codeTheme from 'prism-react-renderer/themes/github';
+// import codeTheme from 'prism-react-renderer/themes/github';
 
 // const background = '#42374a';
 const foreground = '#f8f8f2';
@@ -105,9 +105,9 @@ const StyledError = styled(LiveError)`
   font-family: 'Source Code Pro', monospace;
 `;
 
-function getTheme() {
-  return codeTheme;
-}
+// function getTheme() {
+//   return codeTheme;
+// }
 
 interface LiveEditPropType {
   code: string;
@@ -115,8 +115,8 @@ interface LiveEditPropType {
   scope: any;
 }
 
-const LiveEdit = ({ code, noInline, scope }: LiveEditPropType) => (
-  <StyledProvider code={code} language="jsx" noInline={noInline} scope={scope} theme={getTheme()}>
+export const LiveEdit = ({ code, noInline, scope }: LiveEditPropType) => (
+  <StyledProvider code={code} language="jsx" noInline={noInline} scope={scope}>
     <LiveWrapper>
       <StyledEditor>
         <LiveEditor />
@@ -127,5 +127,3 @@ const LiveEdit = ({ code, noInline, scope }: LiveEditPropType) => (
     <StyledError />
   </StyledProvider>
 );
-
-export default LiveEdit;
