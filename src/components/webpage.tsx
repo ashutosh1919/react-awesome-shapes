@@ -1,4 +1,4 @@
-/** @jsxRuntime classic */
+/** @jsxRuntime automatic */
 import React from 'react';
 import { ThemeProvider } from 'theme-ui';
 import { theme } from './theme';

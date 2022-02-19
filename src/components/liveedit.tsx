@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React from 'react';
 import { css } from '@emotion/react';
 import styled from '@emotion/styled';
@@ -49,34 +50,6 @@ const StyledEditor = styled.div`
   max-height: ${polished.rem(200)};
   overflow: auto;
   ${column};
-  * > textarea:focus {
-    outline: none;
-  }
-
-  font-size: 15;
-  line-height: 1.45;
-  word-break: normal;
-  overflow: auto;
-  direction: ltr;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  margin: 3 -3;
-  background-color: editor-background;
-  color: editor-on;
-  direction: ltr;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  hyphens: none;
-  padding: 4 0;
-  textarea {
-    &:focus {
-      outline: none;
-    }
-  }
 `;
 
 const StyledPreview = styled(LivePreview)`
@@ -104,10 +77,6 @@ const StyledError = styled(LiveError)`
   font-size: 0.9em;
   font-family: 'Source Code Pro', monospace;
 `;
-
-// function getTheme() {
-//   return codeTheme;
-// }
 
 interface LiveEditPropType {
   code: string;
