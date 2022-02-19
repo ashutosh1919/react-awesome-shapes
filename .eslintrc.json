@@ -26,6 +26,10 @@
     "react/prop-types": 1,
     "react/display-name": 0,
 
+    // Will not raise lint error in case of 'any' type assigning.
+    // Our focus is to remove this in future.
+    "@typescript-eslint/no-explicit-any": "off",
+
     // Require a whitespace at the beginning of a comment
     "spaced-comment": ["error", "always"],
 

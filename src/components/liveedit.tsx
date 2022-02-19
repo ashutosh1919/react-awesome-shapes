@@ -5,11 +5,11 @@ import * as polished from 'polished';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import codeTheme from 'prism-react-renderer/themes/github';
 
-const background = '#42374a';
+// const background = '#42374a';
 const foreground = '#f8f8f2';
 const red = '#ff5555';
 
-const blue = polished.lighten(0.1, '#d1b0dd');
+// const blue = polished.lighten(0.1, '#d1b0dd');
 const codeBackground = '#011727';
 const previewBackground = '#eef2ff';
 
@@ -109,7 +109,13 @@ function getTheme() {
   return codeTheme;
 }
 
-const LiveEdit = ({ code, noInline, scope }: any) => (
+interface LiveEditPropType {
+  code: string;
+  noInline?: boolean;
+  scope: any;
+}
+
+const LiveEdit = ({ code, noInline, scope }: LiveEditPropType) => (
   <StyledProvider code={code} language="jsx" noInline={noInline} scope={scope} theme={getTheme()}>
     <LiveWrapper>
       <StyledEditor>
