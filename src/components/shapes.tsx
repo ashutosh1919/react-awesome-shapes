@@ -50,7 +50,6 @@ export const Shapes = () => {
         left={[`-80px`, `50px`, `60px`, `250px`]}
         size="30px"
       />
-
       <Donut
         color="#4ade80"
         left={[`-15px`, `-5px`, `-5px`, `20px`]}

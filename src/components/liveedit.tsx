@@ -90,6 +90,7 @@ const StyledPreview = styled(LivePreview)`
   overflow: hidden;
   text-align: center;
   justify-content: center;
+  align-items: center;
   ${column};
 `;
 
