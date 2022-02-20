@@ -32,7 +32,19 @@
       "contributions": [
         "doc",
         "code",
-        "ideas"
+        "ideas",
+        "platform"
+      ]
+    },
+    {
+      "login": "mohittk",
+      "name": "Mohit Khairnar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79041510?v=4",
+      "profile": "http://mohittk.github.io",
+      "contributions": [
+        "ideas",
+        "code",
+        "design"
       ]
     }
   ],

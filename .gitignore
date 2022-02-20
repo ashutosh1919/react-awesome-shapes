@@ -6,8 +6,9 @@
 .pnp.js
 package-lock.json
 
-# production
+# dev/production build
 /build
+/dist
 
 # testing
 /coverage
