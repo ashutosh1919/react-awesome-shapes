@@ -5,6 +5,7 @@ import { theme } from './theme';
 import { Header } from './header';
 import { Hero } from './hero';
 import { ShapesShowcase } from './shapeshowcase';
+import { Footer } from './footer';
 
 export const WebPage = () => {
   return (
@@ -12,6 +13,7 @@ export const WebPage = () => {
       <Header />
       <Hero />
       <ShapesShowcase />
+      <Footer />
     </ThemeProvider>
   );
 };
