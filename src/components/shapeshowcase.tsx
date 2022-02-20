@@ -2,13 +2,14 @@
 import React from 'react';
 import { Container, Flex, Text } from 'theme-ui';
 import { motion } from 'framer-motion';
+import { ShapesDemos } from './shapesdemos';
 
 export const ShapesShowcase = () => {
   const AnimatedText = motion(Text);
 
   return (
-    <Container sx={{ pb: 0, alignItems: `center`, mt: [`50px`, `50px`, `100px`, `120px`] }}>
-      <Flex sx={{ justifyContent: `center`, textAlign: `center` }}>
+    <Container sx={{ pb: `50px`, alignItems: `center`, mt: [`50px`, `50px`, `100px`, `120px`] }}>
+      <Flex sx={{ pb: `30px`, justifyContent: `center`, textAlign: `center` }}>
         <AnimatedText
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
@@ -25,6 +26,14 @@ export const ShapesShowcase = () => {
           Shapes
         </AnimatedText>
       </Flex>
+      <motion.div
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: 20 }}
+        transition={{ duration: 1, delay: 1 }}
+      >
+        <ShapesDemos />
+      </motion.div>
     </Container>
   );
 };

@@ -1,8 +1,9 @@
-import { Circle } from "../lib/shapes/circle";
-import { Donut } from "../lib/shapes/donut";
-import { CircleGrid } from "../lib/shapes/circlegrid";
-import { Square } from "../lib/shapes/square";
-import { Diamond } from "../lib/shapes/diamond";
+import React from 'react';
+import { Circle } from '../lib';
+import { Donut } from '../lib';
+import { CircleGrid } from '../lib';
+import { Square } from '../lib';
+import { Diamond } from '../lib';
 
 export const Shapes = () => {
   return (

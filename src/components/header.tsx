@@ -38,7 +38,7 @@ export const Header = () => {
             transition={{ duration: 1 }}
           >
             <a
-              href="https://github.com/ashutosh1919"
+              href="https://github.com/ashutosh1919/react-awesome-shapes"
               sx={{ fontFamily: `body`, variant: `buttons.secondary`, textDecoration: `none` }}
             >
               GitHub
