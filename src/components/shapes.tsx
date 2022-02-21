@@ -9,9 +9,9 @@ export const Shapes = () => {
   return (
     <>
       <Circle
-        size={["150px", "150px", "210px", "210px"]}
+        size={['150px', '150px', '210px', '210px']}
         color="linear-gradient(225deg, #fed7aa, #fb923c)"
-        top={["50px", "50px", "100px", "100px"]}
+        top={['50px', '50px', '100px', '100px']}
         left={[`-50px`, `-50px`, `-70px`, `-50px`]}
       />
       <Circle
@@ -63,13 +63,13 @@ export const Shapes = () => {
         size={`100px`}
         color="#c084fc"
         width={[`20px`, `20px`, `50px`, `50px`]}
-        top={["300px", "300px", "400px", "400px"]}
+        top={['300px', '300px', '400px', '400px']}
         left={[`-20px`, `-20px`, `-20px`, `-20px`]}
       />
       <CircleGrid
         color="#c7d2fe"
         size="175px"
-        top={["40px", "50px", "150px", "100px"]}
+        top={['40px', '50px', '150px', '100px']}
         right={[`-90px`, `-50px`, `-70px`, `-30px`]}
       />
     </>

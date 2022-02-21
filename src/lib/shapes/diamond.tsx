@@ -32,13 +32,8 @@ export const Diamond = ({
     height: inherit;
     width: inherit;
     background: ${color};
-<<<<<<< HEAD
-    transform: rotate(45deg);
-    top: inherit;
-=======
     top: inherit;
     transform: rotate(45deg);
->>>>>>> 2316b0cd952bf1d97523672a054789502e1092a4
     right: inherit;
     left: inherit;
     bottom: inherit;
