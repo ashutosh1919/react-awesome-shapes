@@ -4,6 +4,8 @@ import { Donut } from '../lib';
 import { CircleGrid } from '../lib';
 import { Square } from '../lib';
 import { Diamond } from '../lib';
+import { PolygonCard } from '../lib';
+
 
 export const Shapes = () => {
   return (
@@ -50,6 +52,15 @@ export const Shapes = () => {
         color="linear-gradient(225deg, #fed7aa, #fb923c)"
         bottom="50px"
         left={[`-80px`, `50px`, `60px`, `250px`]}
+      />
+
+      <PolygonCard
+        size="100px"
+        height="200px"
+        width="150px"
+        color="linear-gradient(135deg, #f9a8d4, #ec4899)"
+        bottom="100px"
+        left={[`-80px`, `50px`, `60px`, `80px`]}
       />
 
       <Donut
