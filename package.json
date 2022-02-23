@@ -1,11 +1,12 @@
 {
   "name": "react-awesome-shapes",
   "description": "Insert Awesome Shapes into Your React Site with Ease.",
-  "homepage": ".",
-  "version": "0.1.8",
+  "homepage": "https://awesomeshapes.netlify.app",
+  "version": "0.1.9",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "license": "MIT",
   "files": [
     "dist",
     "README.md"
