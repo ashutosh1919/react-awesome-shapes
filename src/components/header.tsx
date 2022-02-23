@@ -2,6 +2,7 @@
 import React from 'react';
 import { Container, Flex, Box } from 'theme-ui';
 import { motion } from 'framer-motion';
+import { Logo } from './logo';
 
 export const Header = () => {
   const AnimatedFlex = motion(Flex);
@@ -20,15 +21,34 @@ export const Header = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             initial={{ opacity: 0, y: 20 }}
-            sx={{ flexDirection: `column` }}
             transition={{ duration: 1 }}
           >
-            <Box
-              sx={{ fontFamily: `body`, fontSize: 3, fontWeight: `semibold`, lineHeight: `25px` }}
+            <a
+              aria-label="Link to the theme creator's website"
+              href="https://github.com/ashutosh1919/react-awesome-shapes"
+              sx={{ color: `text`, '&:hover,&:focus': { color: `primary`, boxShadow: `none` } }}
             >
-              Awesome Shapes
-            </Box>
-            <Box sx={{ fontFamily: `body`, color: `dark` }}>by DevSense</Box>
+              <Logo sx={{ width: 12, height: 12 }} />
+            </a>
+            <Box
+              aria-hidden="true"
+              sx={{ height: 12, width: 1, backgroundColor: `primary`, borderRadius: `full`, mx: 3 }}
+            />
+            <Flex sx={{ flexDirection: `column` }}>
+              <Box
+                sx={{ fontFamily: `body`, fontSize: 3, fontWeight: `semibold`, lineHeight: `25px` }}
+              >
+                Awesome Shapes
+              </Box>
+              <Box sx={{ fontFamily: `body`, color: `primary` }}>
+                <a
+                  href="https://discord.gg/GkcbM5bwZr"
+                  sx={{ textDecoration: `none`, fontFamily: `body`, color: `primary` }}
+                >
+                  by DevSense
+                </a>
+              </Box>
+            </Flex>
           </AnimatedFlex>
           <AnimatedFlex
             animate={{ opacity: 1, y: 0 }}

@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="preview" src="./public/logo.png" />
+<img height="150" alt="preview" src="./public/logo.png" />
 </div>
 
 <h1 align="center">React Awesome Shapes</h1> 
