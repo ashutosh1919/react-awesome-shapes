@@ -60,7 +60,11 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html'
+      template: './public/index.html',
+      favicon: './public/favicon.ico',
+      favicon16: './public/favicon-16x16.png',
+      favicon32: './public/favicon-32x32.png',
+      manifest: './public/manifest.json'
     })
   ]
 };
