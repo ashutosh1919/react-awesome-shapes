@@ -120,7 +120,7 @@ export const Shapes = () => {
       <Circle
         color="linear-gradient(75deg, #7dd3fc, #0ea5e9)"
         left={[`30px`, `180px`, `180px`, `50px`]}
-        size="60px"
+        size="150px"
         top="1050px"
       />
     </>
