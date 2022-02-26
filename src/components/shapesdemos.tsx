@@ -1,8 +1,8 @@
 import React from 'react';
 import { LiveEdit } from './liveedit';
-import { Circle, Donut, CircleGrid, Square, Diamond, PolygonCard} from '../lib';
+import { Circle, Donut, CircleGrid, Square, Diamond, PolygonCard, Hexagon } from '../lib';
 
-const scope = { Circle, Donut, CircleGrid, Square, Diamond, PolygonCard };
+const scope = { Circle, Donut, CircleGrid, Square, Diamond, PolygonCard, Hexagon };
 
 const circleExample = `
 <Circle
@@ -55,6 +55,15 @@ const polygoncardExample = `
 />
 `;
 
+const hexagonExample = `
+<Hexagon
+    height="150px"
+    width="175px"
+    zIndex={2}
+    color="linear-gradient(135deg, #7b2cbf, #3c096c)"
+/>
+`;
+
 export const ShapesDemos = () => {
   return (
     <div>
@@ -64,6 +73,7 @@ export const ShapesDemos = () => {
       <LiveEdit code={squareExample} scope={scope} />
       <LiveEdit code={diamondExample} scope={scope} />
       <LiveEdit code={polygoncardExample} scope={scope} />
+      <LiveEdit code={hexagonExample} scope={scope} />
     </div>
   );
 };
