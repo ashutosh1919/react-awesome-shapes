@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { ResponsiveShape } from '../helpers/responsive';
 import { expandValues } from '../helpers/utils';
 import { checkDim, checkNonDecreasing } from '../helpers/error';
-import { ReactNode } from 'react';
+
 
 type BaseShapeProps = {
   height: string | string[];
