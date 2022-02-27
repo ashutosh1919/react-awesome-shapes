@@ -28,9 +28,13 @@ export const Hero = () => {
           Insert{' '}
           <span
             sx={{
-              background: (theme) =>
+              background: (theme) => [
+                `${theme?.colors?.textGr1}`,
                 `linear-gradient(225deg, ${theme?.colors?.textGr2}, ${theme?.colors?.textGr1})`,
-              WebkitBackgroundClip: `text`,
+                null,
+                null
+              ],
+              WebkitBackgroundClip: [`text`, `text`, null, null],
               WebkitTextFillColor: `transparent`
             }}
           >

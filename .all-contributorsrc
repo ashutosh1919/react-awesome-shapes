@@ -32,7 +32,8 @@
       "contributions": [
         "doc",
         "code",
-        "ideas"
+        "ideas",
+        "platform"
       ]
     },
     {
@@ -43,7 +44,18 @@
       "contributions": [
         "ideas",
         "code",
-        "design"
+        "design",
+        "doc"
+      ]
+    },
+    {
+      "login": "anaghaachakrapani",
+      "name": "anaghaachakrapani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77433706?v=4",
+      "profile": "https://github.com/anaghaachakrapani",
+      "contributions": [
+        "design",
+        "ideas"
       ]
     }
   ],
