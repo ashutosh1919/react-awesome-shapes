@@ -59,7 +59,7 @@ const triangleExample = `
 <Triangle
     size="150px"
     zIndex={2}
-    color="linear-gradient(135deg, #f9a8d4, #eab309)"
+    color="linear-gradient(135deg, #fde047, #eab308)"
 />
 `;
 
