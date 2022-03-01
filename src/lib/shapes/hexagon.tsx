@@ -3,7 +3,6 @@ import styled from '@emotion/styled';
 import { BaseShape } from './base';
 
 type HexagonProps = {
-  size: string | string[];
   color: string;
   height: string | string[];
   width: string | string[];
