@@ -18,7 +18,6 @@ type HexagonProps = {
 };
 
 export const Hexagon = ({
-  size,
   width,
   height,
   color,
