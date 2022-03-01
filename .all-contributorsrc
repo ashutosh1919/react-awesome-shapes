@@ -57,6 +57,24 @@
         "design",
         "ideas"
       ]
+    },
+    {
+      "login": "amansethi00",
+      "name": "Aman Sethi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35420536?v=4",
+      "profile": "https://amansethi.netlify.app",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "judy-n",
+      "name": "judy-n",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64036735?v=4",
+      "profile": "http://judyn.me",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
