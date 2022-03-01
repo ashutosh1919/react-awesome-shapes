@@ -75,6 +75,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "JLambertazzo",
+      "name": "Julien Bertazzo Lambert",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42924425?v=4",
+      "profile": "https://www.julienbl.me",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
