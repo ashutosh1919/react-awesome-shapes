@@ -56,7 +56,6 @@ const polygoncardExample = `
 />
 `;
 
-
 const triangleExample = `
 <Triangle
     size="150px"
