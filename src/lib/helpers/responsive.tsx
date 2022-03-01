@@ -1,7 +1,6 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import { ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import { useMediaQuery } from 'react-responsive';
+import styled from '@emotion/styled';
 
 type ResponsiveShapeProps = {
   height: string[];
