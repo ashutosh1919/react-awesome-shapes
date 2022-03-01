@@ -60,7 +60,7 @@ const hexagonExample = `
     height="150px"
     width="175px"
     zIndex={2}
-    color="linear-gradient(135deg, #7b2cbf, #3c096c)"
+    color="linear-gradient(135deg, #c4b5fd, #8b5cf6)"
 />
 `;
 
