@@ -70,6 +70,7 @@ const hexagonExample = `
     width="175px"
     zIndex={2}
     color="linear-gradient(135deg, #c4b5fd, #8b5cf6)"
+/>
 `;
 
 export const ShapesDemos = () => {
