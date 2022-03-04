@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
-import { clipPathMap } from './polygonclippath.tsx'
+import { clipPathMap } from './polygonclippath'
 
 type PolygonProps = {
   color: string;
