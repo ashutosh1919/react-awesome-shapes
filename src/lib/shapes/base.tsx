@@ -3,7 +3,6 @@ import { ResponsiveShape } from '../helpers/responsive';
 import { expandValues } from '../helpers/utils';
 import { checkDim, checkNonDecreasing } from '../helpers/error';
 
-
 type BaseShapeProps = {
   height: string | string[];
   width: string | string[];
