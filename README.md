@@ -2,8 +2,6 @@
 <img height="150" alt="preview" src="./public/logo.png" />
 </div>
 
-<h1 align="center">React Awesome Shapes</h1>
-
 <h3 align="center">🌀 Insert Awesome Shapes into Your React Site with Ease.</h3>
 
 <p align="center">
