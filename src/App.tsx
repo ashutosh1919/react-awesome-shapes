@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import './fonts/fonts.css';
 // import { Shapes } from './components/shapes';
-import { WebPage } from './components/webpage';
+import { WebPage } from './pages/webpage';
 
 function App() {
   return (

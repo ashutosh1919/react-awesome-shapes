@@ -1,5 +1,5 @@
 import React from 'react';
-import { LiveEdit } from './liveedit';
+import { LiveEdit } from '../common/liveedit';
 
 import {
   Circle,
@@ -12,7 +12,7 @@ import {
   Hexagon,
   Polygon,
   Star
-} from '../lib';
+} from '../../lib';
 
 const scope = {
   Circle,
