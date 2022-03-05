@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { ResponsiveShape } from '../helpers/responsive';
-import { expandValues } from '../helpers/utils';
+import { expandValues } from '../utils/utils';
 import { checkDim, checkNonDecreasing } from '../helpers/error';
 
 type BaseShapeProps = {

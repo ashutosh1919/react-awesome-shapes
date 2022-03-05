@@ -2,7 +2,7 @@
 import React from 'react';
 import { Container, Flex, Text } from 'theme-ui';
 import { motion } from 'framer-motion';
-import { ShapesDemos } from './demos/shapesdemos';
+import { ShapesDemos } from './demo/shapesdemos';
 
 export const ShapesShowcase = () => {
   const AnimatedText = motion(Text);

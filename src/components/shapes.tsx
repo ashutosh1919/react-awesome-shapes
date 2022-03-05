@@ -1,25 +1,7 @@
 /** @jsxImportSource theme-ui */
 import React from 'react';
-import { keyframes } from '@emotion/react';
 import { Circle, Donut, CircleGrid, Square, Diamond } from '../lib';
-
-export const down = keyframes`
-  from {
-    transform: translate3d(0,0,0);
-  }
-  to {
-    transform: translate3d(0,20px,0);
-  }
-`;
-
-export const up = keyframes`
-  from {
-    transform: translate3d(0,0,0);
-  }
-  to {
-    transform: translate3d(0,-20px,0);
-  }
-`;
+import { downKeyFrame, upKeyFrame } from '../constants/shapes.constant';
 
 export const Shapes = () => {
   return (
@@ -46,7 +28,7 @@ export const Shapes = () => {
         color="linear-gradient(225deg, #bbf7d0, #4ade80)"
         right={[`30px`, `180px`, `180px`, `150px`]}
         size="40px"
-        sx={{ animation: `${down} 6s ease-in-out infinite alternate` }}
+        sx={{ animation: `${downKeyFrame} 6s ease-in-out infinite alternate` }}
         top={['300px', '300px', '360px', '360px']}
       />
       <Square
@@ -55,12 +37,6 @@ export const Shapes = () => {
         size="80px"
         top="280px"
       />
-      {/* <Square
-        size="30px"
-        color="linear-gradient(135deg, #f9a8d4, #ec4899)"
-        top="100px"
-        right={[`-80px`, `50px`, `60px`, `120px`]}
-      /> */}
 
       <Diamond
         color="linear-gradient(225deg, #fed7aa, #fb923c)"
@@ -69,20 +45,11 @@ export const Shapes = () => {
         top="100px"
       />
 
-      {/* <PolygonCard
-        size="500px"
-        height="200px"
-        width="150px"
-        color="linear-gradient(135deg, #f9a8d4, #ec4899)"
-        top={["800px","950px","1100px","1100px"]}
-        left={[`-80px`, `-20px`, `20px`, `20px`]}
-      /> */}
-
       <Donut
         color="#4ade80"
         left={[`-15px`, `-5px`, `-5px`, `20px`]}
         size="30px"
-        sx={{ animation: `${up} 6s ease-in-out infinite alternate` }}
+        sx={{ animation: `${upKeyFrame} 6s ease-in-out infinite alternate` }}
         top="260px"
         width="10px"
       />

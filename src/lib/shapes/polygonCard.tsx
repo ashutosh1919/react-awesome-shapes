@@ -18,7 +18,6 @@ type PolygonCardProps = {
 };
 
 export const PolygonCard = ({
-  // size,
   width,
   height,
   color,
