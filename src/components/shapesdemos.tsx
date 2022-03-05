@@ -10,7 +10,8 @@ import {
   PolygonCard,
   Triangle,
   Hexagon,
-  Polygon
+  Polygon,
+  Star
 } from '../lib';
 
 const scope = {
@@ -22,7 +23,8 @@ const scope = {
   PolygonCard,
   Triangle,
   Hexagon,
-  Polygon
+  Polygon,
+  Star
 };
 
 const circleExample = `
@@ -103,6 +105,14 @@ const polygonExample = `
 />
 `;
 
+const starExample = `
+<Star
+    size="150px"
+    zIndex={2}
+    color="radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);"
+/>
+`;
+
 export const ShapesDemos = () => {
   return (
     <div>
@@ -115,6 +125,7 @@ export const ShapesDemos = () => {
       <LiveEdit code={triangleExample} scope={scope} />
       <LiveEdit code={hexagonExample} scope={scope} />
       <LiveEdit code={polygonExample} scope={scope} />
+      <LiveEdit code={starExample} scope={scope} />
     </div>
   );
 };
