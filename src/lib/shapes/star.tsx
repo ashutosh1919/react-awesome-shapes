@@ -34,7 +34,22 @@ export const Star = ({
     width: inherit;
     background: ${color};
     top: inherit;
+<<<<<<< HEAD
     clip-path: ${starPath}
+=======
+    clip-path: polygon(
+      50% 0%,
+      63% 38%,
+      100% 38%,
+      69% 59%,
+      82% 100%,
+      50% 75%,
+      18% 100%,
+      31% 59%,
+      0 38%,
+      37% 38%
+    );
+>>>>>>> 7928e6b9abd6081b43720c9a4838d9adba24b812
     right: inherit;
     left: inherit;
     bottom: inherit;
