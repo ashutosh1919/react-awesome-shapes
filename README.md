@@ -3,11 +3,6 @@
 </div>
 
 <h1 align="center">React Awesome Shapes</h1>
-<<<<<<< HEAD
-
-=======
-
-> > > > > > > 7928e6b9abd6081b43720c9a4838d9adba24b812
 
 <h3 align="center">🌀 Insert Awesome Shapes into Your React Site with Ease.</h3>
 
