@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
-import { clipPathMap } from './polygonclippath'
+import { clipPathMap } from './data/polygonClipPath';
 
 type PolygonProps = {
   color: string;
@@ -35,7 +35,7 @@ export const Polygon = ({
   const [clipPath, setClipPath] = useState('');
 
   useEffect(() => {
-    setClipPath(clipPathMap[sides]);
+    setClipPath(clipPathMap[sides as keyof typeof clipPathMap]);
   }, [sides]);
 
   const StyledPolygon = styled('div')`

@@ -1,12 +1,12 @@
 /** @jsxRuntime automatic */
 import React from 'react';
 import { ThemeProvider } from 'theme-ui';
-import { Shapes } from './shapes';
-import { theme } from './theme';
-import { Header } from './header';
-import { Hero } from './hero';
-import { ShapesShowcase } from './shapeshowcase';
-import { Footer } from './footer';
+import { Shapes } from '../components/shapes';
+import { theme } from '../components/theme/theme';
+import { Header } from '../components/layout/header';
+import { Hero } from '../components/layout/hero';
+import { ShapesShowcase } from '../components/shapeshowcase';
+import { Footer } from '../components/layout/footer';
 
 export const WebPage = () => {
   return (
