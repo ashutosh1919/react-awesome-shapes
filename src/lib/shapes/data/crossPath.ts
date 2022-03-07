@@ -1,4 +1,4 @@
-export const crossPath: any = `polygon(
+export const crossPath: string = `polygon(
     20% 0%,
     0% 20%,
     30% 50%,
