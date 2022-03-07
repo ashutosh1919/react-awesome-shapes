@@ -13,7 +13,7 @@ import {
   Polygon,
   Star,
   Cross,
-  SquaredDonut
+  SquareDonut
 } from '../../lib';
 
 const scope = {
