@@ -1,4 +1,4 @@
-export const squaredDonutPath = `polygon(
+export const squareDonutPath = `polygon(
     0% 0%,
     0% 100%,
     25% 100%,
