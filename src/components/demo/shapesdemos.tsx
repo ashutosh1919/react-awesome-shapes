@@ -12,7 +12,8 @@ import {
   Hexagon,
   Polygon,
   Star,
-  Cross
+  Cross,
+  SquareDonut
 } from '../../lib';
 
 const scope = {
@@ -26,7 +27,8 @@ const scope = {
   Hexagon,
   Polygon,
   Star,
-  Cross
+  Cross,
+  SquareDonut
 };
 
 const circleExample = `
@@ -122,6 +124,13 @@ const crossExample = `
     color="#AA4A44;"
 />
 `;
+const squareDonutExample = `
+<SquareDonut
+    size="150px"
+    zIndex={2}
+    color="linear-gradient(to bottom, #e51fea, #db49dc, #d061ce, #c373c0, #b682b2);"
+/>
+`;
 
 export const ShapesDemos = () => {
   return (
@@ -137,6 +146,7 @@ export const ShapesDemos = () => {
       <LiveEdit code={polygonExample} scope={scope} />
       <LiveEdit code={starExample} scope={scope} />
       <LiveEdit code={crossExample} scope={scope} />
+      <LiveEdit code={squareDonutExample} scope={scope} />
     </div>
   );
 };
