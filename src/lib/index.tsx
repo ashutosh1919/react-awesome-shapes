@@ -8,3 +8,4 @@ export { Triangle } from './shapes/triangle';
 export { Hexagon } from './shapes/hexagon';
 export { Polygon } from './shapes/polygon';
 export { Star } from './shapes/star';
+export { Cross } from './shapes/cross';

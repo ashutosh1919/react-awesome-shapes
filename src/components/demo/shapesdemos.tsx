@@ -11,7 +11,8 @@ import {
   Triangle,
   Hexagon,
   Polygon,
-  Star
+  Star,
+  Cross
 } from '../../lib';
 
 const scope = {
@@ -24,7 +25,8 @@ const scope = {
   Triangle,
   Hexagon,
   Polygon,
-  Star
+  Star,
+  Cross
 };
 
 const circleExample = `
@@ -113,6 +115,14 @@ const starExample = `
 />
 `;
 
+const crossExample = `
+<Cross
+    size="150px"
+    zIndex={2}
+    color="#AA4A44;"
+/>
+`;
+
 export const ShapesDemos = () => {
   return (
     <div>
@@ -126,6 +136,7 @@ export const ShapesDemos = () => {
       <LiveEdit code={hexagonExample} scope={scope} />
       <LiveEdit code={polygonExample} scope={scope} />
       <LiveEdit code={starExample} scope={scope} />
+      <LiveEdit code={crossExample} scope={scope} />
     </div>
   );
 };
