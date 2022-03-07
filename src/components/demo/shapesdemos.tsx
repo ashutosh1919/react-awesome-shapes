@@ -125,7 +125,7 @@ const crossExample = `
 />
 `;
 const squareDonutExample = `
-<SquaredDonut
+<SquareDonut
     size="150px"
     zIndex={2}
     color="linear-gradient(to bottom, #e51fea, #db49dc, #d061ce, #c373c0, #b682b2);"
