@@ -28,7 +28,7 @@ const scope = {
   Polygon,
   Star,
   Cross,
-  SquaredDonut
+  SquareDonut
 };
 
 const circleExample = `
@@ -124,7 +124,7 @@ const crossExample = `
     color="#AA4A44;"
 />
 `;
-const squaredDonutExample = `
+const squareDonutExample = `
 <SquaredDonut
     size="150px"
     zIndex={2}
@@ -146,7 +146,7 @@ export const ShapesDemos = () => {
       <LiveEdit code={polygonExample} scope={scope} />
       <LiveEdit code={starExample} scope={scope} />
       <LiveEdit code={crossExample} scope={scope} />
-      <LiveEdit code={squaredDonutExample} scope={scope} />
+      <LiveEdit code={squareDonutExample} scope={scope} />
     </div>
   );
 };
