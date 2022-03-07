@@ -9,4 +9,4 @@ export { Hexagon } from './shapes/hexagon';
 export { Polygon } from './shapes/polygon';
 export { Star } from './shapes/star';
 export { Cross } from './shapes/cross';
-export { SquaredDonut } from './shapes/squaredDonut';
+export { SquareDonut } from './shapes/squaredDonut';
