@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
-import { squaredDonutPath } from './data/squaredDonutPath';
+import { squareDonutPath } from './data/squaredDonutPath';
 
-type SquaredDonutProps = {
+type SquareDonutProps = {
   size: string | string[];
   color: string;
   top?: string | string[];
@@ -16,7 +16,7 @@ type SquaredDonutProps = {
   position?: string;
 };
 
-export const SquaredDonut = ({
+export const SquareDonut = ({
   size,
   color,
   top = ``,
@@ -24,17 +24,17 @@ export const SquaredDonut = ({
   left = ``,
   right = ``,
   bottom = ``,
-  className = `anim-shape-squared-donut`,
+  className = `anim-shape-square-donut`,
   zIndex = `-1`,
   breakpoints = [600, 900, 1200]
 }: SquaredDonutProps) => {
-  const StyledSquaredDonut = styled('div')`
+  const StyledSquareDonut = styled('div')`
     position: inherit;
     height: inherit;
     width: inherit;
     background: ${color};
     top: inherit;
-    clip-path: ${squaredDonutPath}
+    clip-path: ${squareDonutPath}
     right: inherit;
     left: inherit;
     bottom: inherit;
@@ -54,7 +54,7 @@ export const SquaredDonut = ({
       width={size}
       zIndex={zIndex}
     >
-      <StyledSquaredDonut className={className} />
+      <StyledSquareDonut className={className} />
     </BaseShape>
   );
 };
