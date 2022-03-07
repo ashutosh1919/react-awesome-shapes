@@ -28,7 +28,7 @@ export const Cross = ({
   zIndex = `-1`,
   breakpoints = [600, 900, 1200]
 }: CrossProps) => {
-  const StyledStar = styled('div')`
+  const StyledCross = styled('div')`
     position: inherit;
     height: inherit;
     width: inherit;
@@ -54,7 +54,7 @@ export const Cross = ({
       width={size}
       zIndex={zIndex}
     >
-      <StyledStar className={className} />
+      <StyledCross className={className} />
     </BaseShape>
   );
 };
