@@ -5,11 +5,8 @@ import {
   Circle,
   Donut,
   CircleGrid,
-  Square,
   Diamond,
   PolygonCard,
-  Triangle,
-  Hexagon,
   Polygon,
   Star,
   Cross,
@@ -21,11 +18,8 @@ const scope = {
   Circle,
   Donut,
   CircleGrid,
-  Square,
   Diamond,
   PolygonCard,
-  Triangle,
-  Hexagon,
   Polygon,
   Star,
   Cross,
@@ -60,10 +54,13 @@ const circleGridExample = `
 `;
 
 const squareExample = `
-<Square
-    color="linear-gradient(135deg, #fdba74, #f97316)"
-    size="150px"
+// Square
+<Polygon
+    height="180px"
+    width="175px"
     zIndex={2}
+    color="linear-gradient(135deg, #fdba74, #f97316)"
+    sides={4}
 />
 `;
 
@@ -85,19 +82,24 @@ const polygoncardExample = `
 `;
 
 const triangleExample = `
-<Triangle
-    size="150px"
+// Triangle
+<Polygon
+    height="180px"
+    width="175px"
     zIndex={2}
     color="linear-gradient(135deg, #fde047, #eab308)"
+    sides={3}
 />
 `;
 
 const hexagonExample = `
-<Hexagon
+// Hexagon
+<Polygon
     height="150px"
     width="175px"
     zIndex={2}
     color="linear-gradient(135deg, #c4b5fd, #8b5cf6)"
+    sides={6}
 />
 `;
 
