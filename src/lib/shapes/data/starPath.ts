@@ -1,4 +1,4 @@
-export const starPath: any = `polygon(
+export const starPath = `polygon(
     50% 0%,
     63% 38%,
     100% 38%,
