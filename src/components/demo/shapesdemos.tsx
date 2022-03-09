@@ -13,7 +13,8 @@ import {
   Polygon,
   Star,
   Cross,
-  SquareDonut
+  SquareDonut,
+  Arrow
 } from '../../lib';
 
 const scope = {
@@ -28,7 +29,8 @@ const scope = {
   Polygon,
   Star,
   Cross,
-  SquareDonut
+  SquareDonut,
+  Arrow
 };
 
 const circleExample = `
@@ -132,6 +134,14 @@ const squareDonutExample = `
 />
 `;
 
+const arrowExample = `
+<Arrow
+    color="#1afbff"
+    size="180px"
+    zIndex={2}
+/>
+`;
+
 export const ShapesDemos = () => {
   return (
     <div>
@@ -147,6 +157,7 @@ export const ShapesDemos = () => {
       <LiveEdit code={starExample} scope={scope} />
       <LiveEdit code={crossExample} scope={scope} />
       <LiveEdit code={squareDonutExample} scope={scope} />
+      <LiveEdit code={arrowExample} scope={scope} />
     </div>
   );
 };
