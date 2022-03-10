@@ -27,16 +27,14 @@ const scope = {
   Arrow
 };
 
-const circleExample = `
-<Circle
+const circleExample = `<Circle
     color="linear-gradient(135deg, #a5b4fc, #6366f1)"
     size={['150px', '150px', '180px', '180px']}
     zIndex={2}
 />
 `;
 
-const donutExample = `
-<Donut
+const donutExample = `<Donut
     color="#f43f5e"
     size="180px"
     width={['40px', '40px', '60px', '60px']}
@@ -44,8 +42,7 @@ const donutExample = `
 />
 `;
 
-const circleGridExample = `
-<CircleGrid
+const circleGridExample = `<CircleGrid
     position="relative"
     color="#10b981"
     size="175px"
@@ -53,16 +50,14 @@ const circleGridExample = `
 />
 `;
 
-const diamondExample = `
-<Diamond
+const diamondExample = `<Diamond
     color="linear-gradient(135deg, #93c5fd, #3b82f6)"
     size="100px"
     zIndex={2}
 />
 `;
 
-const polygoncardExample = `
-<PolygonCard
+const polygoncardExample = `<PolygonCard
     height="200px"
     width="150px"
     zIndex={2}
@@ -70,46 +65,40 @@ const polygoncardExample = `
 />
 `;
 
-const polygonExample = `
-<Polygon
+const polygonExample = `<Polygon
     height="180px"
     width="175px"
     zIndex={2}
-    color="linear-gradient(220deg, #f97316 0%, #dc2626 100%)"
+    color="linear-gradient(135deg, #fca5a5, #ef4444)"
     sides={8}
 />
 `;
 
-const starExample = `
-<Star
+const starExample = `<Star
     size="150px"
     zIndex={2}
-    color="radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);"
+    color="radial-gradient(circle, #5eead4, #14b8a6);"
 />
 `;
 
-const crossExample = `
-<Cross
+const crossExample = `<Cross
     size="150px"
     zIndex={2}
-    color="#AA4A44;"
+    color="#0ea5e9"
 />
 `;
-const squareDonutExample = `
-<SquareDonut
+const squareDonutExample = `<SquareDonut
     size="150px"
     zIndex={2}
-    color="linear-gradient(to bottom, #e51fea, #db49dc, #d061ce, #c373c0, #b682b2);"
+    color="#ef4444"
 />
 `;
 
-const arrowExample = `
-<Arrow
-    color="#1afbff"
+const arrowExample = `<Arrow
+    color="#8b5cf6"
     size="180px"
     zIndex={2}
-/>
-`;
+/>`;
 
 export const ShapesDemos = () => {
   return (
