@@ -53,17 +53,6 @@ const circleGridExample = `
 />
 `;
 
-const squareExample = `
-// Square
-<Polygon
-    height="180px"
-    width="175px"
-    zIndex={2}
-    color="linear-gradient(135deg, #fdba74, #f97316)"
-    sides={4}
-/>
-`;
-
 const diamondExample = `
 <Diamond
     color="linear-gradient(135deg, #93c5fd, #3b82f6)"
@@ -78,28 +67,6 @@ const polygoncardExample = `
     width="150px"
     zIndex={2}
     color="linear-gradient(135deg, #f9a8d4, #ec4899)"
-/>
-`;
-
-const triangleExample = `
-// Triangle
-<Polygon
-    height="180px"
-    width="175px"
-    zIndex={2}
-    color="linear-gradient(135deg, #fde047, #eab308)"
-    sides={3}
-/>
-`;
-
-const hexagonExample = `
-// Hexagon
-<Polygon
-    height="150px"
-    width="175px"
-    zIndex={2}
-    color="linear-gradient(135deg, #c4b5fd, #8b5cf6)"
-    sides={6}
 />
 `;
 
@@ -150,11 +117,8 @@ export const ShapesDemos = () => {
       <LiveEdit code={circleExample} scope={scope} />
       <LiveEdit code={donutExample} scope={scope} />
       <LiveEdit code={circleGridExample} scope={scope} />
-      <LiveEdit code={squareExample} scope={scope} />
       <LiveEdit code={diamondExample} scope={scope} />
       <LiveEdit code={polygoncardExample} scope={scope} />
-      <LiveEdit code={triangleExample} scope={scope} />
-      <LiveEdit code={hexagonExample} scope={scope} />
       <LiveEdit code={polygonExample} scope={scope} />
       <LiveEdit code={starExample} scope={scope} />
       <LiveEdit code={crossExample} scope={scope} />
