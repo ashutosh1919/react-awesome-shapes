@@ -53,7 +53,7 @@ export const Diamond = ({
       width={size}
       zIndex={zIndex}
     >
-      <StyledDiamond className={className} />
+      <StyledDiamond />
     </BaseShape>
   );
 };
