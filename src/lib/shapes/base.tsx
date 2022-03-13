@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React, { Fragment, ReactNode } from 'react';
 import { ResponsiveShape } from '../helpers/responsive';
 import { expandValues } from '../utils/utils';
 import { checkDim, checkNonDecreasing } from '../helpers/error';
@@ -37,7 +37,7 @@ export const BaseShape = ({
     !checkDim(right, breakpoints.length) ||
     !checkDim(bottom, breakpoints.length)
   ) {
-    return <></>;
+    return <Fragment />;
   }
   const responsiveHeight = expandValues(height, breakpoints.length);
   const responsiveWidth = expandValues(width, breakpoints.length);

@@ -1,5 +1,5 @@
 /** @jsxRuntime automatic */
-import React from 'react';
+import React, { Fragment } from 'react';
 import { ThemeProvider } from 'theme-ui';
 import { Shapes } from '../components/shapes';
 import { theme } from '../components/theme/theme';
@@ -10,7 +10,7 @@ import { Footer } from '../components/layout/footer';
 
 export const WebPage = () => {
   return (
-    <>
+    <Fragment>
       <ThemeProvider theme={theme}>
         <Header />
         <Hero />
@@ -18,6 +18,6 @@ export const WebPage = () => {
         <Footer />
       </ThemeProvider>
       <Shapes />
-    </>
+    </Fragment>
   );
 };
