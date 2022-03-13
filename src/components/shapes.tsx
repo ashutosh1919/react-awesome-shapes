@@ -43,7 +43,7 @@ export const Shapes = () => {
       <Diamond
         color="linear-gradient(225deg, #fed7aa, #fb923c)"
         right={[`40px`, `50px`, `60px`, `120px`]}
-        size="50px"
+        size="30px"
         sx={{ animation: `${upKeyFrame} 6s ease-in-out infinite alternate` }}
         top="100px"
       />
