@@ -34,7 +34,7 @@ export const SquareDonut = ({
     width: inherit;
     background: ${color};
     top: inherit;
-    clip-path: ${squareDonutPath}
+    clip-path: ${squareDonutPath};
     right: inherit;
     left: inherit;
     bottom: inherit;

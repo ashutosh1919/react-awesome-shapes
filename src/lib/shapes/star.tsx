@@ -34,7 +34,7 @@ export const Star = ({
     width: inherit;
     background: ${color};
     top: inherit;
-    clip-path: ${starPath}
+    clip-path: ${starPath};
     right: inherit;
     left: inherit;
     bottom: inherit;

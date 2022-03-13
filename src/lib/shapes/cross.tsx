@@ -34,7 +34,7 @@ export const Cross = ({
     width: inherit;
     background: ${color};
     top: inherit;
-    clip-path: ${crossPath}
+    clip-path: ${crossPath};
     right: inherit;
     left: inherit;
     bottom: inherit;

@@ -34,7 +34,7 @@ export const Arrow = ({
     width: inherit;
     background: ${color};
     top: inherit;
-    clip-path: ${arrowPath}
+    clip-path: ${arrowPath};
     right: inherit;
     left: inherit;
     bottom: inherit;
