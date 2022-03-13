@@ -104,6 +104,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://judyn.me"><img src="https://avatars.githubusercontent.com/u/64036735?v=4?s=100" width="100px;" alt=""/><br /><sub><b>judy-n</b></sub></a><br /><a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=judy-n" title="Code">💻</a></td>
     <td align="center"><a href="https://www.julienbl.me"><img src="https://avatars.githubusercontent.com/u/42924425?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Julien Bertazzo Lambert</b></sub></a><br /><a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=JLambertazzo" title="Code">💻</a></td>
     <td align="center"><a href="https://spyware007.github.io/Lets-connect/"><img src="https://avatars.githubusercontent.com/u/89961974?v=4?s=100" width="100px;" alt=""/><br /><sub><b>OM GAWANDE</b></sub></a><br /><a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=Spyware007" title="Code">💻</a> <a href="#ideas-Spyware007" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://shailesh-parmar.netlify.app/"><img src="https://avatars.githubusercontent.com/u/71748675?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shailesh Parmar</b></sub></a><br /><a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=ShaileshParmar11" title="Code">💻</a></td>
   </tr>
 </table>
 
