@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Themed, Box } from 'theme-ui';
+import { discordLink, githubLink } from '../../constants/social.constant';
 
 export const Footer = () => {
   const AnimatedBox = motion(Box);
@@ -8,11 +9,11 @@ export const Footer = () => {
   return (
     <AnimatedBox as="footer" variant="layout.footer">
       &copy; {new Date().getFullYear()} by{` `}
-      <Themed.a href="https://discord.gg/GkcbM5bwZr">DevSense</Themed.a>
+      <Themed.a href={discordLink}>DevSense</Themed.a>
       . All rights reserved.
       <br />
       This website is open source on{` `}
-      <Themed.a href="https://github.com/ashutosh1919/react-awesome-shapes">GitHub</Themed.a>.
+      <Themed.a href={githubLink}>GitHub</Themed.a>.
     </AnimatedBox>
   );
 };

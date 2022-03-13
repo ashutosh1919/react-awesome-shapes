@@ -3,6 +3,7 @@ import React from 'react';
 import { Container, Flex, Box } from 'theme-ui';
 import { motion } from 'framer-motion';
 import { Logo } from './logo';
+import { discordLink, githubLink } from '../../constants/social.constant';
 
 export const Header = () => {
   const AnimatedFlex = motion(Flex);
@@ -25,7 +26,7 @@ export const Header = () => {
           >
             <a
               aria-label="Link to the theme creator's website"
-              href="https://github.com/ashutosh1919/react-awesome-shapes"
+              href={githubLink}
               sx={{ color: `text`, '&:hover,&:focus': { color: `primary`, boxShadow: `none` } }}
             >
               <Logo sx={{ width: 12, height: 12 }} />
@@ -42,7 +43,7 @@ export const Header = () => {
               </Box>
               <Box sx={{ fontFamily: `body`, color: `primary` }}>
                 <a
-                  href="https://discord.gg/GkcbM5bwZr"
+                  href={discordLink}
                   sx={{ textDecoration: `none`, fontFamily: `body`, color: `primary` }}
                 >
                   by DevSense
@@ -58,7 +59,7 @@ export const Header = () => {
             transition={{ duration: 1 }}
           >
             <a
-              href="https://github.com/ashutosh1919/react-awesome-shapes"
+              href={githubLink}
               sx={{ fontFamily: `body`, variant: `buttons.secondary`, textDecoration: `none` }}
             >
               GitHub
