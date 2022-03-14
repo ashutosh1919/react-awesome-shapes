@@ -1,5 +1,6 @@
 const { resolve } = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
 const config = {
   mode: 'development',
@@ -65,6 +66,12 @@ const config = {
       favicon16: './public/favicon-16x16.png',
       favicon32: './public/favicon-32x32.png',
       manifest: './public/manifest.json'
+    }),
+    new ForkTsCheckerWebpackPlugin({
+      eslint: {
+        files: './src/**/*.{ts,tsx,js,jsx}'
+        // required - same as command `eslint ./src/**/*.{ts,tsx,js,jsx} --ext .ts,.tsx,.js,.jsx`
+      }
     })
   ]
 };
