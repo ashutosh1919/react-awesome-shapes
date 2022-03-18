@@ -10,7 +10,8 @@ import {
   Star,
   Cross,
   SquareDonut,
-  Arrow
+  Arrow,
+  Message
 } from '../lib';
 
 export const scope = {
@@ -23,7 +24,8 @@ export const scope = {
   Star,
   Cross,
   SquareDonut,
-  Arrow
+  Arrow,
+  Message
 };
 
 export const circleExample = `<Circle
@@ -97,7 +99,16 @@ export const arrowExample = `<Arrow
     color="#8b5cf6"
     size="180px"
     zIndex={2}
-/>`;
+/>
+`;
+
+export const messageExample = `<Message
+    color="linear-gradient(135deg, #00b09b, #96c93d)"
+    height="150px"
+    width="180px"
+    zIndex={2}
+/>
+`;
 
 export const downKeyFrame = keyframes`
   from {
