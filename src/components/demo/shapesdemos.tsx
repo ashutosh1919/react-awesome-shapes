@@ -6,6 +6,7 @@ import {
   crossExample,
   diamondExample,
   donutExample,
+  messageExample,
   polygoncardExample,
   polygonExample,
   scope,
@@ -27,6 +28,7 @@ export const ShapesDemos = () => {
       <LiveEdit code={crossExample} scope={scope} />
       <LiveEdit code={squareDonutExample} scope={scope} />
       <LiveEdit code={arrowExample} scope={scope} />
+      <LiveEdit code={messageExample} scope={scope} />
     </div>
   );
 };

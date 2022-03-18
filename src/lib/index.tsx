@@ -8,3 +8,4 @@ export { Star } from './shapes/star';
 export { Cross } from './shapes/cross';
 export { SquareDonut } from './shapes/squareDonut';
 export { Arrow } from './shapes/arrow';
+export { Message } from './shapes/message';
