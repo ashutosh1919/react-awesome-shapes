@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
-import { parseSizeAsNum } from '../utils/utils';
+import { parseSizeAsNum } from '../../utils/utils';
 
 type CircleGridProps = {
   size: string | string[];
