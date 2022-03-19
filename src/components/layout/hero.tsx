@@ -3,6 +3,7 @@ import React from 'react';
 import { Container, Flex, Text } from 'theme-ui';
 import { motion } from 'framer-motion';
 import ReactTooltip from 'react-tooltip';
+import { copyToClipBoard } from '../../utils/utils';
 
 export const Hero = () => {
   const AnimatedText = motion(Text);
@@ -71,7 +72,7 @@ export const Hero = () => {
         >
           <ReactTooltip
             afterShow={() => {
-              navigator.clipboard.writeText('npm install react-awesome-shapes');
+              copyToClipBoard('npm install react-awesome-shapes');
             }}
             backgroundColor="#c7d2fe"
             effect="solid"
