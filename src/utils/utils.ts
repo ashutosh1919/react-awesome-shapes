@@ -56,3 +56,7 @@ export function recombineNumAsString(values: number | number[], units: string | 
 
   return size;
 }
+
+export function copyToClipBoard(value: string) {
+  navigator.clipboard.writeText(value);
+}
