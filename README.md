@@ -2,7 +2,7 @@
 <img height="150" alt="preview" src="./public/logo.png" />
 </div>
 
-<h1 align="center">React Awesome Shapes</h1> 
+<h1 align="center">React Awesome Shapes</h1>
 
 <h3 align="center">🌀 Insert Awesome Shapes into Your React Site with Ease.</h3>
 
@@ -28,7 +28,7 @@
     <img src="./public/preview.png"></img>
   </a>
 </p>
-:star: Star us on GitHub — it helps!  
+:star: Star us on GitHub — it helps!
 
 # Getting Started 🎬
 
@@ -59,12 +59,11 @@ export default ShapeComponent;
 The shapes are very easier to import and use wherever you want and in any web framework that uses NPM.  
 You can set different sizes of different variety of shapes by passing props.
 
-Read the complete in detail documentation in the [Usage section](https://github.com/ashutosh1919/react-awesome-shapes#usage).  
-
+Read the complete in detail documentation in the [Usage section](https://github.com/ashutosh1919/react-awesome-shapes#usage).
 
 ## Usage
 
-Currently, the package contains shapes: [Circle](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/circle.tsx), [Donut](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/donut.tsx), [CircleGrid](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/circlegrid.tsx), [Diamond](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/diamond.tsx), [PolygonCard](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/polygonCard.tsx), [Polygon](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/polygon.tsx), [Star](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/star.tsx), [Cross](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/cross.tsx), [SquareDonut](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/squareDonut.tsx), [Arrow](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/arrow.tsx).
+Currently, the package contains shapes: [Circle](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/circle.tsx), [Donut](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/donut.tsx), [CircleGrid](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/circlegrid.tsx), [Diamond](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/diamond.tsx), [PolygonCard](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/polygonCard.tsx), [Polygon](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/polygon.tsx), [Star](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/star.tsx), [Cross](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/cross.tsx), [SquareDonut](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/squareDonut.tsx), [Arrow](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/arrow.tsx), [Message](https://github.com/ashutosh1919/react-awesome-shapes/blob/main/src/lib/shapes/message.tsx).
 
 All of the shapes currently present in the package are made responsive and the responsiveness is customisable too. To do that, one of the prop to each shape component is `breakpoints` which is an array of numbers. It represents the breakpoints in which you will define the responsiveness. By default, `breakpoints` are defined as `[600, 900, 1200]`. So, you can pass array of 4 elements for `size` prop which corresponds to `<=600`, `600<size<=900`, `900<size<=1200`, `>1200`. Similarly, you can pass other props in form of array if you want to define different sizes for different breakpoints. You can see list of props corresponding to each shape in the respective implementation file linked above with shape.
 
