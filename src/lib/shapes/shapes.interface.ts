@@ -36,9 +36,7 @@ export interface BaseShapeProps extends CommonProps, SizeProps {
   children: ReactNode;
 }
 
-export interface DonutProps extends ShapeProps {
-  width: string | string[];
-}
+export interface DonutProps extends ShapeProps, Pick<SizeProps, 'width'> {}
 
 export interface PolygonProps extends CommonProps, SizeProps {
   sides?: number;
