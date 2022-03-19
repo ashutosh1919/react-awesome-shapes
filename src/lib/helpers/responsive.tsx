@@ -1,33 +1,7 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import styled from '@emotion/styled';
-
-type ResponsiveShapeProps = {
-  height: string[];
-  width: string[];
-  top: string[];
-  left: string[];
-  right: string[];
-  bottom: string[];
-  zIndex: string;
-  className: string;
-  children: ReactNode;
-  breakpoints: number[];
-  position: string;
-};
-
-type ShapeDivProps = {
-  height: string;
-  width: string;
-  top: string;
-  left: string;
-  right: string;
-  bottom: string;
-  zIndex: string;
-  className: string;
-  children: ReactNode;
-  position: string;
-};
+import { ResponsiveShapeProps, ShapeDivProps } from './responsive.interface';
 
 const ShapeDiv = ({
   children,

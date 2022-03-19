@@ -2,19 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
 import { crossPath } from './data/crossPath';
-
-type CrossProps = {
-  size: string | string[];
-  color: string;
-  top?: string | string[];
-  left?: string | string[];
-  right?: string | string[];
-  bottom?: string | string[];
-  className?: string;
-  zIndex?: string;
-  breakpoints?: number[];
-  position?: string;
-};
+import { ShapeProps } from './shapes.interface';
 
 export const Cross = ({
   size,
@@ -27,7 +15,7 @@ export const Cross = ({
   className = `anim-shape-star`,
   zIndex = `-1`,
   breakpoints = [600, 900, 1200]
-}: CrossProps) => {
+}: ShapeProps) => {
   const StyledCross = styled('div')`
     position: inherit;
     height: inherit;

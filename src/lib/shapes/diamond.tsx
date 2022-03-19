@@ -1,19 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
-
-type DiamondProps = {
-  size: string | string[];
-  color: string;
-  top?: string | string[];
-  left?: string | string[];
-  right?: string | string[];
-  bottom?: string | string[];
-  className?: string;
-  zIndex?: string;
-  breakpoints?: number[];
-  position?: string;
-};
+import { ShapeProps } from './shapes.interface';
 
 export const Diamond = ({
   size,
@@ -26,7 +14,7 @@ export const Diamond = ({
   className = `anim-shape-diamond`,
   zIndex = `-1`,
   breakpoints = [600, 900, 1200]
-}: DiamondProps) => {
+}: ShapeProps) => {
   const StyledDiamond = styled('div')`
     position: inherit;
     height: inherit;

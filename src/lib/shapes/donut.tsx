@@ -1,20 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
-
-type DonutProps = {
-  size: string | string[];
-  color: string;
-  width: string | string[];
-  top?: string | string[];
-  left?: string | string[];
-  right?: string | string[];
-  bottom?: string | string[];
-  className?: string;
-  zIndex?: string;
-  breakpoints?: number[];
-  position?: string;
-};
+import { DonutProps } from './shapes.interface';
 
 export const Donut = ({
   size,
