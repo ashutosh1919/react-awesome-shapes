@@ -2,19 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
 import { starPath } from './data/starPath';
-
-type StarProps = {
-  size: string | string[];
-  color: string;
-  top?: string | string[];
-  left?: string | string[];
-  right?: string | string[];
-  bottom?: string | string[];
-  className?: string;
-  zIndex?: string;
-  breakpoints?: number[];
-  position?: string;
-};
+import { ShapeProps } from './shapes.interface';
 
 export const Star = ({
   size,
@@ -27,7 +15,7 @@ export const Star = ({
   className = `anim-shape-star`,
   zIndex = `-1`,
   breakpoints = [600, 900, 1200]
-}: StarProps) => {
+}: ShapeProps) => {
   const StyledStar = styled('div')`
     position: inherit;
     height: inherit;

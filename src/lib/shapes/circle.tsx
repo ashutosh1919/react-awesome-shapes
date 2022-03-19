@@ -1,19 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
-
-type CircleProps = {
-  size: string | string[];
-  color: string;
-  top?: string | string[];
-  left?: string | string[];
-  right?: string | string[];
-  bottom?: string | string[];
-  className?: string;
-  zIndex?: string;
-  breakpoints?: number[];
-  position?: string;
-};
+import { ShapeProps } from './shapes.interface';
 
 export const Circle = ({
   size,
@@ -26,7 +14,7 @@ export const Circle = ({
   className = `anim-shape-circle`,
   zIndex = `-1`,
   breakpoints = [600, 900, 1200]
-}: CircleProps) => {
+}: ShapeProps) => {
   const StyledCircle = styled('div')`
     position: inherit;
     height: inherit;

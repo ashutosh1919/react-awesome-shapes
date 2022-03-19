@@ -2,21 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
 import { clipPathMap } from './data/polygonClipPath';
-
-type PolygonProps = {
-  color: string;
-  height: string | string[];
-  width: string | string[];
-  top?: string | string[];
-  left?: string | string[];
-  right?: string | string[];
-  bottom?: string | string[];
-  className?: string;
-  zIndex?: string;
-  breakpoints?: number[];
-  position?: string;
-  sides?: number;
-};
+import { PolygonProps } from './shapes.interface';
 
 export const Polygon = ({
   width,

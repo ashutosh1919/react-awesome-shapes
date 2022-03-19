@@ -1,21 +1,8 @@
-import React, { Fragment, ReactNode } from 'react';
+import React, { Fragment } from 'react';
 import { ResponsiveShape } from '../helpers/responsive';
 import { expandValues } from '../../utils/utils';
 import { checkDim, checkNonDecreasing } from '../helpers/error';
-
-type BaseShapeProps = {
-  height: string | string[];
-  width: string | string[];
-  top?: string | string[];
-  left?: string | string[];
-  right?: string | string[];
-  bottom?: string | string[];
-  zIndex?: string;
-  className?: string;
-  children: ReactNode;
-  breakpoints?: number[];
-  position?: string;
-};
+import { BaseShapeProps } from './shapes.interface';
 
 export const BaseShape = ({
   children,

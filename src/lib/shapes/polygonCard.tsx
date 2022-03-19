@@ -1,21 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
-
-type PolygonCardProps = {
-  size: string | string[];
-  color: string;
-  height: string | string[];
-  width: string | string[];
-  top?: string | string[];
-  left?: string | string[];
-  right?: string | string[];
-  bottom?: string | string[];
-  className?: string;
-  zIndex?: string;
-  breakpoints?: number[];
-  position?: string;
-};
+import { ShapeWithSize } from './shapes.interface';
 
 export const PolygonCard = ({
   width,
@@ -29,7 +15,7 @@ export const PolygonCard = ({
   className = `anim-shape-polygoncard`,
   zIndex = `-1`,
   breakpoints = [600, 900, 1200]
-}: PolygonCardProps) => {
+}: ShapeWithSize) => {
   const StyledPolygonCard = styled('div')`
     position: inherit;
     height: inherit;

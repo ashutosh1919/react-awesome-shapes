@@ -2,19 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { BaseShape } from './base';
 import { parseSizeAsNum } from '../../utils/utils';
-
-type CircleGridProps = {
-  size: string | string[];
-  color: string;
-  top?: string | string[];
-  left?: string | string[];
-  right?: string | string[];
-  bottom?: string | string[];
-  className?: string;
-  zIndex?: string;
-  breakpoints?: number[];
-  position?: string;
-};
+import { ShapeProps } from './shapes.interface';
 
 export const CircleGrid = ({
   size,
@@ -27,7 +15,7 @@ export const CircleGrid = ({
   className = `anim-shape-circlegrid`,
   zIndex = `-1`,
   breakpoints = [600, 900, 1200]
-}: CircleGridProps) => {
+}: ShapeProps) => {
   let widthNum = parseSizeAsNum(size);
   if (typeof widthNum === 'number') {
     widthNum = Math.trunc((173 / 127) * widthNum);
