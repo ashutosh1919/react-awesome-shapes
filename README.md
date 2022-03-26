@@ -106,6 +106,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://shailesh-parmar.netlify.app/"><img src="https://avatars.githubusercontent.com/u/71748675?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shailesh Parmar</b></sub></a><br /><a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=ShaileshParmar11" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sskanishk"><img src="https://avatars.githubusercontent.com/u/29313203?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sskanishk</b></sub></a><br /><a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=sskanishk" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/JudeSafo"><img src="https://avatars.githubusercontent.com/u/9307673?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jude</b></sub></a><br /><a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=JudeSafo" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
