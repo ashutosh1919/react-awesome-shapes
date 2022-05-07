@@ -11,7 +11,8 @@ import {
   Cross,
   SquareDonut,
   Arrow,
-  Message
+  Message,
+  Heart
 } from '../lib';
 
 export const scope = {
@@ -25,7 +26,8 @@ export const scope = {
   Cross,
   SquareDonut,
   Arrow,
-  Message
+  Message,
+  Heart
 };
 
 export const circleExample = `<Circle
@@ -54,6 +56,12 @@ export const circleGridExample = `<CircleGrid
 export const diamondExample = `<Diamond
     color="linear-gradient(135deg, #93c5fd, #3b82f6)"
     size="100px"
+    zIndex={2}
+/>
+`;
+export const heartExample = `<Heart
+    color="linear-gradient(135deg, #f472b6, #db2777)"
+    size="120px"
     zIndex={2}
 />
 `;
