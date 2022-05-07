@@ -60,7 +60,7 @@ export const diamondExample = `<Diamond
 />
 `;
 export const heartExample = `<Heart
-    color="linear-gradient(225deg, #fed7aa, #fb923c)"
+    color="linear-gradient(135deg, #f472b6, #db2777)"
     size="120px"
     zIndex={2}
 />
