@@ -2,6 +2,7 @@ export { Donut } from './shapes/donut';
 export { Circle } from './shapes/circle';
 export { CircleGrid } from './shapes/circlegrid';
 export { Diamond } from './shapes/diamond';
+export { Heart } from './shapes/heart';
 export { PolygonCard } from './shapes/polygonCard';
 export { Polygon } from './shapes/polygon';
 export { Star } from './shapes/star';
