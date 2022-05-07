@@ -108,6 +108,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/JudeSafo"><img src="https://avatars.githubusercontent.com/u/9307673?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jude</b></sub></a><br /><a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=JudeSafo" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/essofyany"><img src="https://avatars.githubusercontent.com/u/62668827?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bilal Essofyany</b></sub></a><br /><a href="https://github.com/ashutosh1919/react-awesome-shapes/commits?author=essofyany" title="Code">💻</a></td>
   </tr>
 </table>
 
