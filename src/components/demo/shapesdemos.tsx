@@ -11,7 +11,8 @@ import {
   polygonExample,
   scope,
   squareDonutExample,
-  starExample
+  starExample,
+  heartExample
 } from '../../constants/shapes.constant';
 import { LiveEdit } from '../common/liveedit';
 
@@ -21,6 +22,7 @@ export const ShapesDemos = () => {
       <LiveEdit code={circleExample} scope={scope} />
       <LiveEdit code={donutExample} scope={scope} />
       <LiveEdit code={circleGridExample} scope={scope} />
+      <LiveEdit code={heartExample} scope={scope} />
       <LiveEdit code={diamondExample} scope={scope} />
       <LiveEdit code={polygoncardExample} scope={scope} />
       <LiveEdit code={polygonExample} scope={scope} />
