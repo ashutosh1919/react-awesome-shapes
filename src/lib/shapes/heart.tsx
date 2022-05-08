@@ -8,33 +8,28 @@ import { ShapeProps } from './shapes.interface';
 export const Heart = ({
   size,
   color,
+  css = ``,
   top = ``,
   position = `absolute`,
   left = ``,
   right = ``,
   bottom = ``,
   className = `anim-shape-heart`,
-  zIndex = `-1`,
+  zIndex = `unset`,
   breakpoints = [600, 900, 1200]
 }: ShapeProps) => {
   const StyledHeart = styled('div')`
-    position: inherit;
     height: inherit;
     width: inherit;
     background: ${color};
-    top: inherit;
-    right: inherit;
-    left: inherit;
-    bottom: inherit;
-    z-index: inherit;
     clip-path: url(#svgClip);
+    ${css}
   `;
 
   return (
     <BaseShape
       bottom={bottom}
       breakpoints={breakpoints}
-      className={className}
       height={size}
       left={left}
       position={position}
@@ -43,7 +38,7 @@ export const Heart = ({
       width={size}
       zIndex={zIndex}
     >
-      <StyledHeart />
+      <StyledHeart className={className} />
       <svg width="0" height="0">
         <clipPath id="svgClip" clipPathUnits="objectBoundingBox">
           <path

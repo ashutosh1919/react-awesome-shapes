@@ -12,6 +12,7 @@ export interface CommonProps {
   zIndex?: string;
   breakpoints?: number[];
   position?: string;
+  css?: string;
 }
 
 export interface SizeProps {

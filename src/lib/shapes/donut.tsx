@@ -6,36 +6,35 @@ import { DonutProps } from './shapes.interface';
 export const Donut = ({
   size,
   color,
+  css = ``,
   width,
   top = ``,
   left = ``,
   right = ``,
   bottom = ``,
   className = `anim-shape-donut`,
-  zIndex = `-1`,
+  zIndex = `unset`,
   breakpoints = [600, 900, 1200],
   position = `absolute`
 }: DonutProps) => {
   const StyledDonut = styled('div')`
-    position: inherit;
     height: inherit;
     width: inherit;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     background-color: transparent;
     border: ${color};
     border-width: ${width};
     border-style: solid;
     border-radius: 50%;
-    top: inherit;
-    left: inherit;
-    right: inherit;
-    z-index: inherit;
+    ${css}
   `;
 
   return (
     <BaseShape
       bottom={bottom}
       breakpoints={breakpoints}
-      className={className}
       height={size}
       left={left}
       position={position}

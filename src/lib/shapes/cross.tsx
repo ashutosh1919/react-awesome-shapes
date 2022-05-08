@@ -7,33 +7,28 @@ import { ShapeProps } from './shapes.interface';
 export const Cross = ({
   size,
   color,
+  css = ``,
   top = ``,
   position = `absolute`,
   left = ``,
   right = ``,
   bottom = ``,
   className = `anim-shape-star`,
-  zIndex = `-1`,
+  zIndex = `unset`,
   breakpoints = [600, 900, 1200]
 }: ShapeProps) => {
   const StyledCross = styled('div')`
-    position: inherit;
     height: inherit;
     width: inherit;
     background: ${color};
-    top: inherit;
     clip-path: ${crossPath};
-    right: inherit;
-    left: inherit;
-    bottom: inherit;
-    z-index: inherit;
+    ${css}
   `;
 
   return (
     <BaseShape
       bottom={bottom}
       breakpoints={breakpoints}
-      className={className}
       height={size}
       left={left}
       position={position}

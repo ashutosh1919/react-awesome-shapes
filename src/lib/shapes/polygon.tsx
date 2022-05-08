@@ -8,13 +8,14 @@ export const Polygon = ({
   width,
   height,
   color,
+  css = ``,
   top = ``,
   position = `absolute`,
   left = ``,
   right = ``,
   bottom = ``,
   className = `anim-shape-hexagon`,
-  zIndex = `-1`,
+  zIndex = `unset`,
   breakpoints = [600, 900, 1200],
   sides = 6
 }: PolygonProps) => {
@@ -25,23 +26,17 @@ export const Polygon = ({
   }, [sides]);
 
   const StyledPolygon = styled('div')`
-    position: inherit;
     height: inherit;
     width: inherit;
     background: ${color};
-    top: inherit;
     clip-path: ${clipPath};
-    right: inherit;
-    left: inherit;
-    bottom: inherit;
-    z-index: inherit;
+    ${css}
   `;
 
   return (
     <BaseShape
       bottom={bottom}
       breakpoints={breakpoints}
-      className={className}
       height={height}
       left={left}
       position={position}

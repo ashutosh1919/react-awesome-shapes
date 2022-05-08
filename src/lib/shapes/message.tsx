@@ -6,6 +6,7 @@ import { ShapeWithSize } from './shapes.interface';
 
 export const Message = ({
   color,
+  css = ``,
   width,
   height,
   top = ``,
@@ -13,28 +14,22 @@ export const Message = ({
   right = ``,
   bottom = ``,
   className = `anim-shape-message`,
-  zIndex = `-1`,
+  zIndex = `unset`,
   breakpoints = [600, 900, 1200],
   position = `absolute`
 }: ShapeWithSize) => {
   const StyledMessage = styled('div')`
-    position: inherit;
     height: inherit;
     width: inherit;
     background: ${color};
     clip-path: ${messagePath};
-    top: inherit;
-    left: inherit;
-    right: inherit;
-    bottom: inherit;
-    z-index: inherit;
+    ${css}
   `;
 
   return (
     <BaseShape
       bottom={bottom}
       breakpoints={breakpoints}
-      className={className}
       height={height}
       left={left}
       position={position}
