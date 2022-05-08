@@ -121,6 +121,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "essofyany",
+      "name": "Bilal Essofyany",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62668827?v=4",
+      "profile": "https://github.com/essofyany",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 5,
