@@ -7,33 +7,28 @@ import { ShapeProps } from './shapes.interface';
 export const Arrow = ({
   size,
   color,
+  css = ``,
   top = ``,
   position = `absolute`,
   left = ``,
   right = ``,
   bottom = ``,
   className = `anim-shape-arrow`,
-  zIndex = `-1`,
+  zIndex = `unset`,
   breakpoints = [600, 900, 1200]
 }: ShapeProps) => {
   const StyledArrow = styled('div')`
-    position: inherit;
     height: inherit;
     width: inherit;
     background: ${color};
-    top: inherit;
     clip-path: ${arrowPath};
-    right: inherit;
-    left: inherit;
-    bottom: inherit;
-    z-index: inherit;
+    ${css}
   `;
 
   return (
     <BaseShape
       bottom={bottom}
       breakpoints={breakpoints}
-      className={className}
       height={size}
       left={left}
       position={position}
